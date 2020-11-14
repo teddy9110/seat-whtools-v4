@@ -50,5 +50,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
             'description' => 'Ability to Create/edit certificates',
             'division' => 'military'
         ],
+        'configuration' => [
+            'label' => 'Manage Configuration',
+            'description' => 'Manage Configuration of seat-whtools',
+            'division' => 'military'
+        ]
     ];
-
