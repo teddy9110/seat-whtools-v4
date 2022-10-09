@@ -1,21 +1,21 @@
 {
-    "name": "lk77/seat-whtools",
+    "name": "teddy9110/seat-whtools-v4",
     "description": "Wh corporation tools for SeAT",
     "type": "seat-plugin",
     "license": "GPL-2.0-only",
     "authors": [
         {
-            "name": "flyingferret",
-            "email": "flyingferret88@googlemail.com"
+            "name": "teddy9110",
+            "email": "alexiles1995@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "FlyingFerret\\Seat\\WHTools\\": "src/"
         }
     },
-    
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
@@ -25,9 +25,9 @@
         }
     },
     "require": {
-        "eveseat/services": "^4.0",
+        "denngarr/seat-fitting": "^4.0.5" ,
+        "eveseat/services": "^4.1",
         "eveseat/eveapi": "^4.0",
-        "eveseat/web": "^4.0",
-        "denngarr/seat-fitting": "^4.0" 
+        "eveseat/web": "^4.0"
     }
 }
