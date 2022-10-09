@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "FlyingFerret\\Seat\\WHTools\\": "src/"
+            "Teddy9110\\Seat\\WHTools\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -19,13 +19,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "FlyingFerret\\Seat\\WHTools\\WHToolsServiceProvider"
+                "Teddy9110\\Seat\\WHTools\\WHToolsServiceProvider"
 
             ]
         }
     },
     "require": {
-        "denngarr/seat-fitting": "^4.0.5" ,
+        "Teddy9110/seat-fitting": "^4.0.5" ,
         "eveseat/services": "^4.1",
         "eveseat/eveapi": "^4.0",
         "eveseat/web": "^4.0"

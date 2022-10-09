@@ -1,10 +1,10 @@
 <?php
 
 
-namespace FlyingFerret\Seat\WHTools\Jobs;
+namespace Teddy9110\Seat\WHTools\Jobs;
 
-use FlyingFerret\Seat\WHTools\Models\Certificate;
-use FlyingFerret\Seat\WHTools\Models\CharacterCertificate;
+use Teddy9110\Seat\WHTools\Models\Certificate;
+use Teddy9110\Seat\WHTools\Models\CharacterCertificate;
 use Seat\Eveapi\Models\Corporation\CorporationInfo;
 
 

@@ -12,7 +12,7 @@ please do report any findings to seat-slack and report it as an issue and please
 
 ```
 php artisan down
-composer require flyingferret/seat-whtools
+composer require Teddy9110/seat-whtools
 
 php artisan vendor:publish --force --all
 php artisan migrate

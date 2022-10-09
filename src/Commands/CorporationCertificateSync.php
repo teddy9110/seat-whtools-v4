@@ -6,10 +6,10 @@
  * Time: 23:22.
  */
 
-namespace FlyingFerret\Seat\WHTools\Commands;
+namespace Teddy9110\Seat\WHTools\Commands;
 
 use Seat\Eveapi\Models\Corporation\CorporationInfo;
-use FlyingFerret\Seat\WHTools\Jobs\CertificatesSync;
+use Teddy9110\Seat\WHTools\Jobs\CertificatesSync;
 use Illuminate\Console\Command;
 
 class CorporationCertificateSync extends Command

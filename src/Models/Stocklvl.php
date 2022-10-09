@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyingFerret\Seat\WHTools\Models;
+namespace Teddy9110\Models\Stocklvl;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -15,6 +15,6 @@ class Stocklvl extends Model
 
     public function fitting()
     {
-        return $this->hasOne('Denngarr\Seat\Fitting\Models\Fitting', 'id', 'fitting_id');
+        return $this->hasOne('Teddy9110\Seat\WHTools\Models\WHTools', 'id', 'fitting_id');
     }
 }

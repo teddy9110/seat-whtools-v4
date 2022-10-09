@@ -19,12 +19,13 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-namespace FlyingFerret\Seat\WHTools\Http\Controllers;
+namespace Teddy9110\Seat\WHTools\Http\Controllers;
 
-use Denngarr\Seat\Fitting\Http\Controllers\FittingController;
-use Denngarr\Seat\Fitting\Models\Sde\InvType;
-use FlyingFerret\Seat\WHTools\Models\Stocklvl;
-use FlyingFerret\Seat\WHTools\Validation\StocklvlValidation;
+use Teddy9110\Seat\WHTools\Http\Controllers\WHToolsController;
+use Teddy9110\Seat\WHTools\Models\Sde\InvType;
+use Teddy9110\Seat\WHTools\Models\Stocklvl;
+use Teddy9110\Seat\WHTools\Models\Stocklvl;
+use Teddy9110\Seat\WHTools\Validation\StocklvlValidation;
 use Seat\Eveapi\Models\Contracts\ContractDetail;
 
 class StockingController extends FittingController

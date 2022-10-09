@@ -19,7 +19,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-namespace FlyingFerret\Seat\WHTools;
+namespace Teddy9110\Seat\WHTools;
 
 use Illuminate\Routing\Router;
 use Seat\Services\AbstractSeatPlugin;
@@ -27,7 +27,7 @@ use Seat\Web\Http\Middleware\Locale;
 
 /**
  * Class WHToolsServiceProvider
- * @package FlyingFerret\Seat\WHTools
+ * @package Teddy9110\Seat\WHTools
  */
 class WHToolsServiceProvider extends AbstractSeatPlugin
 {
@@ -138,17 +138,17 @@ class WHToolsServiceProvider extends AbstractSeatPlugin
 
     public function getPackageRepositoryUrl(): string
     {
-        return 'https://github.com/flyingferret/seat-whtools';
+        return 'https://github.com/teddy9110/seat-whtools-v4';
     }
 
     public function getPackagistPackageName(): string
     {
-        return 'seat-whtools';
+        return 'seat-whtools-v4';
     }
 
     public function getPackagistVendorName(): string
     {
-        return 'flyingferret';
+        return 'Teddy9110';
     }
 
     public function getVersion(): string
@@ -158,6 +158,6 @@ class WHToolsServiceProvider extends AbstractSeatPlugin
 
     public function getChangelogUri(): string
     {
-        return 'https://raw.githubusercontent.com/flyingferret/seat-whTools/master/CHANGELOG.md';
+        return 'https://raw.githubusercontent.com/Teddy9110/seat-whTools/master/CHANGELOG.md';
     }
 }

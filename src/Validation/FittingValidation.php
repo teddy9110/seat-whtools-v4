@@ -4,7 +4,7 @@ namespace Teddy9110\Seat\WHTools\Validation;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CertificateValidation extends FormRequest
+class FittingValidation extends FormRequest
 {
     public function authorize()
     {
@@ -14,10 +14,8 @@ class CertificateValidation extends FormRequest
     public function rules()
     {
         return [
-            'certificateName' => 'required|string',
-            'selectedSkills' => 'required|array|min:1'
+            'fitSelection' => 'nullable',
+            'eftfitting' => 'required'
         ];
     }
 }
-
-?>

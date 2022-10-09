@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FlyingFerret\Seat\WHTools\Models;
+namespace Teddy9110\Seat\WHTools\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -16,6 +16,6 @@ class Certificate extends Model
 
     public function skills()
     {
-        return $this->hasMany('FlyingFerret\Seat\WHTools\Models\CertificateSkill', 'certID', 'certID');
+        return $this->hasMany('Teddy9110\Seat\WHTools\Models\CertificateSkill', 'certID', 'certID');
     }
 }

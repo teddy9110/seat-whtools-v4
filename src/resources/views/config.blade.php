@@ -77,8 +77,8 @@
                 </div>
                 <div class="col-md-6">
                     Latest version:
-                    <a href="https://packagist.org/packages/flyingferret/seat-whtools">
-                        <img src="https://poser.pugx.org/flyingferret/seat-whtools/v/stable"
+                    <a href="https://packagist.org/packages/Teddy9110/seat-whtools">
+                        <img src="https://poser.pugx.org/Teddy9110/seat-whtools/v/stable"
                              alt="Discord Connector Version"/>
 
                     </a>

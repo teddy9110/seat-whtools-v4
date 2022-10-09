@@ -19,21 +19,21 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-namespace FlyingFerret\Seat\WHTools\Http\Controllers;
+namespace Teddy9110\Seat\WHTools\Http\Controllers;
 
-use FlyingFerret\Seat\WHTools\Models\Certificate;
-use FlyingFerret\Seat\WHTools\Models\CertificateSkill;
-use FlyingFerret\Seat\WHTools\Models\CharacterCertificate;
+use Teddy9110\Seat\WHTools\Models\Certificate;
+use Teddy9110\Seat\WHTools\Models\CertificateSkill;
+use Teddy9110\Seat\WHTools\Models\CharacterCertificate;
 use Seat\Web\Http\Controllers\Controller;
-use FlyingFerret\Seat\WHTools\Models\Sde\DgmTypeAttributes;
-use FlyingFerret\Seat\WHTools\Models\Sde\InvType;
-use FlyingFerret\Seat\WHTools\Models\Sde\InvGroups;
-use FlyingFerret\Seat\WHTools\Validation\CertificateValidation;
+use Teddy9110\Seat\WHTools\Models\Sde\DgmTypeAttributes;
+use Teddy9110\Seat\WHTools\Models\Sde\InvType;
+use Teddy9110\Seat\WHTools\Models\Sde\InvGroups;
+use Teddy9110\Seat\WHTools\Validation\CertificateValidation;
 
 use Seat\Eveapi\Models\Character\CharacterInfo;
 use Seat\Eveapi\Models\Character\CharacterAffiliation ;
 use Seat\Eveapi\Models\Corporation\CorporationInfo;
-use FlyingFerret\Seat\WHTools\Jobs\CertificatesSync;
+use Teddy9110\Seat\WHTools\Jobs\CertificatesSync;
 
 /**
  * Class HomeController

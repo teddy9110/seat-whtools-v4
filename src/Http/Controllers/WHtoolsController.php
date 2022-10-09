@@ -19,7 +19,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-namespace FlyingFerret\Seat\WHTools\Http\Controllers;
+namespace Teddy9110\Seat\WHTools\Http\Controllers;
 
 use Seat\Web\Http\Controllers\Controller;
 
@@ -75,7 +75,7 @@ class WHtoolsController extends Controller
     {
         try {
             $response = (new Client())
-                ->request('GET', "https://raw.githubusercontent.com/flyingferret/seat-whtools/master/CHANGELOG.md");
+                ->request('GET', "https://raw.githubusercontent.com/Teddy9110/seat-whtools/master/CHANGELOG.md");
             if ($response->getStatusCode() != 200) {
                 return 'Error while fetching changelog';
             }
